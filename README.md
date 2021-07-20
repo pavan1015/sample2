@@ -31,7 +31,7 @@ the new string.
 ## Bundles
 
 Take note of the sample `pom.xml` file. This is not actually for Maven
-builds -- this is an Ant project afterall -- but for publishing builds
+builds -- this is an Ant project afterall -- but for publishing builds 
 for a Maven repository. It's packed up by the "bundle" target, which
 creates a `bundle.jar` containing your project's signed artifacts. To
 use the "bundle" target you need to have GnuPG set up in your path, a
